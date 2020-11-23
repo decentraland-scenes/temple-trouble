@@ -1,0 +1,50 @@
+{
+  "display": {
+    "title": "temple-trouble",
+    "description": "What lies behind those gates?",
+    "navmapThumbnail": "https://raw.githubusercontent.com/takJohn/navmap-thumbnails/master/temple-trouble.png",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+      "47,69","48,69","49,69",
+      "47,68","48,68","49,68",
+      "47,67","48,67","49,67"
+    ],
+    "base": "47,67"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [],
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 4,
+        "y": 0,
+        "z": 4
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ]
+}
